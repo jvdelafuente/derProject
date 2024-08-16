@@ -4,7 +4,7 @@ import { useNotes } from '../../hooks/useNotes';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import { IconButton } from '@mui/material';
 import NoteAll from '../NoteAll';
-import defaultAvatar from '../../../src/img/jpg/usuario.png';
+import defaultAvatar from '../../../src/Img/jpg/usuario.png';
 import UpdateProfileForm from '../../forms/UpdateProfileForm';
 import FollowModal from './FollowModal';
 import { getBioService, updateBioService } from '../../services/authService';

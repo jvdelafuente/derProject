@@ -1,7 +1,7 @@
 import { useEffect, useState, useContext } from 'react';
 import { AuthContext } from '../contexts/AuthContext';
 import { getToken } from '../utils/getToken';
-import defaultAvatar from '../../src/img/jpg/usuario.png';
+import defaultAvatar from '../../src/Img/jpg/usuario.png';
 import CloseIcon from '@mui/icons-material/Close';
 import { IconButton } from "@mui/material";
 

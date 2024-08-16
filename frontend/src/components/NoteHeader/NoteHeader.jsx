@@ -1,7 +1,7 @@
 // src/components/NoteHeader.js
 import PropTypes from 'prop-types';
 import { useNavigate } from 'react-router-dom';
-import defaultAvatar from '../../../src/img/jpg/usuario.png';
+import defaultAvatar from '../../../src/Img/jpg/usuario.png';
 import { useAuth } from '../../hooks/useAuth';
 import './NoteHeader.css';
 

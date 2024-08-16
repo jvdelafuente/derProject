@@ -1,4 +1,4 @@
-import defaultAvatar from '../../../src/img/jpg/usuario.png';
+import defaultAvatar from '../../../src/Img/jpg/usuario.png';
 import PropTypes from 'prop-types';
 import { userPropTypes, commentPropTypes } from '../../utils/customPropTypes';
 import { useState } from 'react';

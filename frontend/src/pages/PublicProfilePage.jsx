@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 import { getPublicUserProfile, getBioService, followUserService, unfollowUserService } from '../services/authService';
-import defaultAvatar from '../../src/img/jpg/usuario.png';
+import defaultAvatar from '../../src/Img/jpg/usuario.png';
 import NoteAll from '../components/NoteAll';
 import { useNotes } from '../hooks/useNotes';
 import './PublicProfilePage.css';
