@@ -1,0 +1,13 @@
+NoteBody text{  
+  word-wrap: break-word;
+}
+
+.note {
+  padding: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  margin: 30px 0px 75px 0px;
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.027);
+  backdrop-filter: blur(5px);
+  color: white;
+}

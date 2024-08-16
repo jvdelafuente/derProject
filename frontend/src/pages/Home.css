@@ -1,0 +1,23 @@
+/* Estilos para la lista principal */
+.main-list {
+  /* margin-top: 30px;  */
+  margin-left: 150px;
+  margin-right: 150px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  flex-direction: column; 
+  justify-content: flex-start;
+}
+
+/* Estilos para la lista de notas */
+
+.notes-list {
+
+  max-width: 1400px;
+  max-width: 1400px;
+}
+
+.notes-list>div {
+  grid-column: span 1;
+  grid-row: span 1;
+}

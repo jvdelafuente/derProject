@@ -1,0 +1,66 @@
+/* Estilos para el fondo principal del formulario de inicio de sesión */
+.registerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.h2-login {
+  font-size: 140%; 
+}
+
+/* Estilos para el botón "Iniciar Sesión" */
+.login-log {
+  margin-top: 10px; 
+  border: none; 
+  background-color: #e97f42; 
+  text-decoration: none; 
+  padding: 20px; 
+  border-radius: 10px; 
+  cursor: pointer; 
+  color: white;
+  font-weight: bold; 
+  text-transform: uppercase; 
+
+}
+
+/* Estilos para el botón "Iniciar Sesión" al pasar el mouse por encima */
+.login-log:hover {
+  background-color: #e33714e3; 
+}
+
+
+/* Estilos para el grupo de elementos del formulario */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+/* Estilos para el contenedor del campo de contraseña con el botón */
+.password-input-container-login {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el campo de entrada de contraseña */
+.password-input-container-login input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Estilos para el botón de alternar contraseña (mostrar/ocultar) */
+.password-toggle-button-login {
+  position: absolute;
+  right: 25px;
+  top: 60%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+

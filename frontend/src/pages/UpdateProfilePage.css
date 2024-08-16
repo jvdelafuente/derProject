@@ -1,0 +1,20 @@
+/* Estilos para la clase .profileBig */
+.auth-form-container{
+    background-color: rgba(255, 255, 255, 0.027);
+      backdrop-filter: blur(5px);
+}
+.profileBig {
+  display: flex; 
+}
+.editProfile-button{
+  filter: invert(2);
+}
+/* Estilos para la clase .profileBig en pantallas con un ancho máximo de 600px */
+@media screen and (max-width: 600px) {
+  .profileBig {
+    display: flex; 
+    flex-direction: column; 
+  }
+}
+
+

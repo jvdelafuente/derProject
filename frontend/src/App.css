@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+/* Estilos generales aplicados a todo el documento */
+*, html, body {
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,
+body{
+  background-color: #000;
+}
+/* Estilos para el contenedor principal de la aplicación */
+.App {
+  background-color: #000;
+}
+/* Estilos generales para todos los navegadores */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f100;
+}
+/* Estilos para títulos principales */
+
+
+/* Estilos para contenedores principales */
+main {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,24 @@
+.side-container {
+    border: 1px solid rgba(255, 255, 255, 0.301);
+  position: fixed;
+  padding: 20px;
+  right: 0;
+margin-top: 20px;
+margin-right: 25px;
+}
+.side-tittle{
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.side-link {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.459);
+    color: rgba(255, 255, 255, 0.623);
+}
+.side-link:hover{
+  color: white;
+}

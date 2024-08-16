@@ -1,0 +1,16 @@
+.charts-container{
+  width: 70vw;
+}
+.aboutContainer{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.aboutContainer h2{
+  margin-top: 50px;
+}
+.charts-container h2 {
+  font-size: 20px;
+  margin-left: 25px;
+}

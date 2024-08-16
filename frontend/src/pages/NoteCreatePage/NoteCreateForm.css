@@ -1,0 +1,142 @@
+.createNoteContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.note-create-form {
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  color: #fff;
+  min-width: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.027);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+  justify-content: space-evenly;
+}
+
+.formNotes {
+  display: flex;
+  justify-content: center;
+}
+
+.note-create-form label {
+  font-size: 18px;
+}
+#noteCreateLabel{
+  margin-top: 20px;
+}
+.notecreate-tittle {
+  width: 350px;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  padding: 7px;
+  border-radius: 0px;
+  background-color: #191919;
+}
+.notecreate-tittle:focus {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  box-shadow: 0px 0px 1px white;
+}
+.notecreate-tittle::placeholder {
+  color: rgba(255, 255, 255, 0.747);
+}
+
+
+.notecreate-button {
+  margin: 50px 0px 50px 0px;
+  color: white;
+  cursor: pointer;
+  background-color: #191919;
+  width: 200px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  padding: 7px;
+}
+
+.notecreate-button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  box-shadow: 0px 0px 1px white;
+}
+
+.notecreate-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.loadImg-note {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  font-size: 16px;
+  transition: border-color 0.3s ease-in-out;
+  border-radius: 0px;
+}
+.custom-button-upload {
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background-color: #191919;
+  width: 110px;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  padding: 7px;
+}
+
+.custom-button-upload:hover {
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  box-shadow: 0px 0px 1px white;
+}
+
+.custom-button-upload:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.uploadbutton-text{
+  font-size: 16px ;
+}
+.notecreate-textarea {
+  width: 350px;
+  height: 100px;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  background-color: #191919;
+  resize: none;
+}
+.notecreate-textarea:focus {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.527);
+  box-shadow: 0px 0px 1px white;
+}
+.notecreate-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.747);
+}
+.image-name{
+  margin-top: 5px;
+  width: 200px;
+  font-size: 10px;
+}
+.remove-image-button {
+  width: 20px;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.remove-image-button:hover {
+  color: #ffffff;
+}
+.createNote-footer{
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
