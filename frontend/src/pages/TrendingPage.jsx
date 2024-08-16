@@ -5,7 +5,7 @@ import { useNotes } from "../hooks/useNotes";
 import "./Home.css";
 // Importamos los componentes.
 import NoteAll from "../components/NoteAll";
-import TripleButton from "../components/tripleButton";
+
 
 const TrendingPage = () => {
   const { authUser } = useAuth();
@@ -20,7 +20,7 @@ const TrendingPage = () => {
   return (
     <main className="main-list">
       <div>
-        <TripleButton isTrending={isTrending} />
+
       </div>
       <div className="notes-list">
         {authUser &&
