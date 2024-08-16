@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { Navigate } from 'react-router-dom';
 import LoginForm from '../forms/LoginForm';
 import './RegisterPage.css'
-import myVideo from '../../src/img/animated-bg.mp4'
+import myVideo from '../../src/Img/animated-bg.mp4'
 
 const LoginPage = () => {
 

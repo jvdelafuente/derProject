@@ -8,7 +8,7 @@ import defaultAvatar from '../../../src/img/jpg/usuario.png';
 import UpdateProfileForm from '../../forms/UpdateProfileForm';
 import FollowModal from './FollowModal';
 import { getBioService, updateBioService } from '../../services/authService';
-import myVideo from '../../../src/img/animated-bg.mp4'
+import myVideo from '../../../src/Img/animated-bg.mp4'
 
 import './Profile.css';
 import '../../pages/UpdateProfilePage.css';
