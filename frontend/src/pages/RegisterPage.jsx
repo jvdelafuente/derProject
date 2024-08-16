@@ -1,7 +1,7 @@
 // Importamos los hooks.
 import { useAuth } from '../hooks/useAuth';
 import "./RegisterPage.css"
-import myVideo from '../../public/img/animated-bg.mp4'
+import myVideo from '../../src/img/animated-bg.mp4'
 
 // Importamos los componentes.
 import { Navigate } from 'react-router-dom';

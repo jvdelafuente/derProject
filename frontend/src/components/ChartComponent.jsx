@@ -15,7 +15,7 @@ const ChartComponent = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/analytics/event_counts', {
+        const response = await fetch('https://derproject-production.up.railway.app/analytics/event_counts', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',

@@ -13,7 +13,7 @@ const baseURL = import.meta.env.VITE_API_URL;
 import PropTypes from 'prop-types';
 import { userPropTypes } from '../utils/customPropTypes';
 import { useAuth } from '../hooks/useAuth';
-import defaultAvatar from '../../public/img/jpg/usuario.png';
+import defaultAvatar from '../../src/img/jpg/usuario.png';
 
 const SideNav = ({ setSearchParams, avatar }) => {
     const avatarImage = avatar ? `${baseURL}/uploads/${avatar}` : defaultAvatar;

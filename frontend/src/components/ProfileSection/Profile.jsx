@@ -4,11 +4,11 @@ import { useNotes } from '../../hooks/useNotes';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import { IconButton } from '@mui/material';
 import NoteAll from '../NoteAll';
-import defaultAvatar from '../../../public/img/jpg/usuario.png';
+import defaultAvatar from '../../../src/img/jpg/usuario.png';
 import UpdateProfileForm from '../../forms/UpdateProfileForm';
 import FollowModal from './FollowModal';
 import { getBioService, updateBioService } from '../../services/authService';
-import myVideo from '../../../public/img/animated-bg.mp4'
+import myVideo from '../../../src/img/animated-bg.mp4'
 
 import './Profile.css';
 import '../../pages/UpdateProfilePage.css';

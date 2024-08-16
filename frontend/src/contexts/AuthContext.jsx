@@ -22,27 +22,28 @@ export const AuthProvider = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    const fetchUser = async () => {
-      try {
-        setLoading(true);
-        const body = await getPrivateProfile();
-        if (body.status === "error") {
-          throw new Error(body.message);
-        }
-        setAuthUser(body.data.user);
-        setIsAuthenticated(true);
-      } catch (err) {
-        console.error(err);
-        setIsAuthenticated(false);
-      } finally {
-        setLoading(false);
+useEffect(() => {
+  const fetchUser = async () => {
+    try {
+      setLoading(true);
+      const body = await getPrivateProfile();
+      if (body.status === "error") {
+        throw new Error(body.message);
       }
-    };
+      setAuthUser(body.data.user);
+      setIsAuthenticated(true);
+    } catch (err) {
+      console.error(err);
+      setIsAuthenticated(false);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    const authToken = getToken();
-    if (authToken) fetchUser();
-  }, [isAuthenticated]);
+  const authToken = getToken();
+  if (authToken) fetchUser();
+}, [isAuthenticated]);
+
 
   const authRegister = async (username, email, password) => {
     try {
