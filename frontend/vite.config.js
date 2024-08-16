@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000', // Ajusta el puerto según sea necesario
+        target: 'http://derproject-production.up.railway.app', // Ajusta el puerto según sea necesario
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
