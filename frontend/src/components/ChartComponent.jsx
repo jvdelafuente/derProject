@@ -22,6 +22,8 @@ const ChartComponent = () => {
             'Authorization': token,
           },
         });
+        console.log('Response content type:', response.headers.get('Content-Type'));
+        console.log('Raw response:', await response.text());
         const data = await response.json();
         console.log('Response data:', data);
 
